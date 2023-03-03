@@ -1,11 +1,11 @@
-# iLab247 - the next generation lab
+# iLab247 - the next generation learning environment
 
 ## Introduction
 
 Welcome to iLab247.  iLab247 provides guidance on two major things:
 
-1. Code repos for Research topics  
-2. Tech stacks for Research & Development
+1. Code repos for learning topics  
+2. Tech stacks for Learning & Development
 
 You have built in tech stacks for:
 
@@ -17,20 +17,7 @@ You have built in tech stacks for:
 
 ## How to run pre-packaged teck stacks:
 
-Quick links: List of tech stacks https://hub.docker.com/u/ilab247 
+Quick links: 
+List of tech stacks - [Docker Hub - List of tech stacks](https://hub.docker.com/u/ilab247)
 
-Cloud Guru offers sand boxes and cloud servers for running the above docker images (tech stacks):
-1.	Create your own machine:
-    * Login to acloud.guru 
-    * Navigate to link https://learn.acloud.guru/cloud-playground/cloud-servers 
-    * Create new server – options: Distribution = Cloud Native Kubernetes, Zone =North America (or any other), Size = Large, Tag = AIML (or any other name).  Click create server.  (This will take 2-3 mins)
-    * Open terminal 
-        * ```– username <cloud_user>, password <listed in the page>  change it to desired name (during first login) ```
-    * Congratulations.  You have a sandbox ready for running our tech stacks.
-2.	Run our prepackaged Java tech stacks:
-    * ```docker run -it --network=host ilab247/javastack:0.01```
-    * Navigate to the URL with port mentioned to access your VS Code environment
-3.	Run our prepackaged AIML tech stacks:
-    * ```docker run -it --network=host ilab247/aimlstack:0.01```
-    * Navigate to the URL with port mentioned to access your Jupyter environment 
-
+- [how to run techstack.md](https://github.com/iLab247/startHere/blob/main/how%20to%20run%20techstack.md)
