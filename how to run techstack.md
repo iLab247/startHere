@@ -20,4 +20,5 @@ Cloud Guru offers sand boxes and cloud servers for running the above docker imag
 	a. Change user :  ```su - ilab247user```
 	b. Change working directory: ```cd /workspaces```
 	c. Run Code-Server : ```code-server --bind-addr 0.0.0.0:8005 --auth none --user-data-dir /home/ilab247user/data --extensions-dir /home/ilab247user/extensionsCache```
+	d. Run Jupyter Lab : ```jupyter lab --ip=0.0.0.0 --port=8002```
 3. Navigate to the URL with port mentioned to access your VS Code environment
