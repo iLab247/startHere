@@ -11,14 +11,17 @@ Cloud Guru offers sand boxes and cloud servers for running the above docker imag
 4. Congratulations.  You have a sandbox ready for running our tech stacks.
   Just run below two commands to create our workspaces folder.
   ```mkdir /home/cloud_user/workspaces```
+	
   ```chmod +777 /home/cloud_user/workspaces```
 
 ###### 2.	Run our prepackaged Java tech stacks:
 
-1. docker run -it --network=host -v /home/cloud_user/workspaces:/workspaces ilab247/fullstack:0.01 (replace fullstack:0.01 with desired stack name)
+1. ```docker run -it --network=host -v /home/cloud_user/workspaces:/workspaces ilab247/fullstack:0.01``` (replace fullstack:0.01 with desired stack name)
+	
 2. This above will automatically runs vs code server. if not run it manually.
 	a. Change user :  ```su - ilab247user```
 	b. Change working directory: ```cd /workspaces```
 	c. Run Code-Server : ```code-server --bind-addr 0.0.0.0:8005 --auth none --user-data-dir /home/ilab247user/data --extensions-dir /home/ilab247user/extensionsCache```
 	d. Run Jupyter Lab : ```jupyter lab --ip=0.0.0.0 --port=8002```
+	
 3. Navigate to the URL with port mentioned to access your VS Code environment
